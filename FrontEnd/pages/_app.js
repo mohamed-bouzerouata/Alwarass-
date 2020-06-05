@@ -31,7 +31,7 @@ function FetchData() {
     return data.items.map(({ id, title }) =>  (
         <div key={id}>
             <p>
-                {id} : {title   }
+                {id} : { title }
             </p>
         </div>
     ));
